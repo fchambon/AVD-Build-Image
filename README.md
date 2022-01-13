@@ -1,1 +1,1 @@
-# AVD-Build-Image
+# Quick-Start-AVD

@@ -1,0 +1,54 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "numbersOfVm": {
+            "value": 2
+        },
+        "hostName": {
+            "value": "Host"
+        },
+        "location": {
+            "value": "westeurope"
+        },
+        "rgName": {
+            "value": "RG-ID-AVD"
+        },
+        "hostPoolName": {
+            "value": "HostPool-ID"
+        },
+        "hostPoolType": {
+            "value": "pooled"
+        },
+        "loadBalancerType": {
+            "value": "BreadthFirst"
+        },
+        "maxSessionLimit": {
+            "value": 10
+        },
+        "validationEnvironment": {
+            "value": true
+        },
+        "tokenExpirationTime": {
+            "value": ""
+        },
+        "applicationGroupType": {
+            "value": "Desktop"
+        },
+        "dagName": {
+            "value": "DAG-0"
+        },
+        "workspaceName": {
+            "value": "WKS-0"
+        },
+        "virtualNetworkResourceGroupName": {
+            "value": "RG-ID-PROD"
+        },
+        "virtualNetworkName": {
+            "value": "Vnet-ID-PROD"
+        },
+        "subnetName": {
+            "value": "Subnet-Hosts"
+        }
+    }
+}
